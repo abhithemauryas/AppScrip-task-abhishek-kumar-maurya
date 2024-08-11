@@ -8,7 +8,7 @@ import { AlignJustify } from 'lucide-react';
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <div className="navbar">
       <div className="navbarContainer">
         <div className="logo">
         <AlignJustify className="show-on-mobile" /> &nbsp;
@@ -35,7 +35,7 @@ export default function Navbar() {
           <li><a href="/contact">CONTACT US</a></li>
         </ul>
       
-    </nav>
+    </div>
 
   );
 }
