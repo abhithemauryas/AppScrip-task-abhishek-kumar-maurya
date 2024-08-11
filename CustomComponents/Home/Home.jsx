@@ -6,6 +6,7 @@ import { ChevronLeft } from "lucide-react";
 import React, { useState, useEffect } from "react";
 import ProductPage from "./ProductPage";
 import Footer from "../Layouts/Footer";
+import Navbar from "../Layouts/Navbar";
 
 const Home = () => {
   const arr = [
@@ -143,6 +144,9 @@ const Home = () => {
 
   return (
     <div className="Home">
+      <div>
+        <Navbar/>
+      </div>
       <div className="Product-heading">
         <h1>DISCOVER OUR PRODUCTS</h1>
         <p>
