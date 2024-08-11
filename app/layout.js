@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         
       </head>
       <body className={inter.className}>
-        <Navbar/>
+        <Navbar />
         {children}
        
         </body>
